@@ -53,8 +53,8 @@ module Middleman
           end
 
           # Markdown Support
-          require "middleman-core/renderers/markdown"
-          app.register Middleman::Renderers::Markdown
+          # require "middleman-core/renderers/markdown"
+          # app.register Middleman::Renderers::Markdown
 
           # AsciiDoc Support
           begin
